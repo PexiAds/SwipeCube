@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <script src="https://static.pexi.nl/pexi.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="swiper.min.css">
+  <title>Swipe cube</title>
+</head>
+
+<body>
+  <div id="stage" class="hiddenOnload">
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <!-- Slide container -->
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-slide1" style="background-image:url(img1.jpg)"></div>
+        <div class="swiper-slide swiper-slide2" style="background-image:url(img2.jpg)"></div>
+        <div class="swiper-slide swiper-slide3" style="background-image:url(img3.jpg)"></div>
+        <div class="swiper-slide swiper-slide4" style="background-image:url(img4.jpg)"></div>
+      </div>
+    </div>
+
+    <!-- Add Pagination -->
+    <div class="pagination-wrapper">
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="border"></div>
+  </div>
+  <!-- Swipe icon -->
+  <div class="swipe-hand"></div>
+	<script src="https://static.pexi.nl/general/jquery.min.js"></script>
+	<script src="https://static.pexi.nl/general/tweenmax_2.1.2.min.js"></script>
+  <script src="swiper.min.js"></script>
+  <script src="main.js">
+  </script>
+</body>
+
+</html>
