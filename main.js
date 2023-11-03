@@ -24,7 +24,7 @@ var slidecounter = 0
     }
   });
   $('#stage').on('click',function(){
-    PEXI.event('click_'+slidecounter)
+    PEXI.event('klik_'+slidecounter)
     PEXI.click();
   })
 
